@@ -1,0 +1,1090 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.wrapper
+{
+	width: 1600px;
+}
+.header-top
+{	
+	display: block;
+	width: 100%;
+	height: 42px;
+	background: #101010;
+	position: relative;
+	font-family: "ProximaNovaRegular";
+}
+.header-wrapper-top
+{
+	width: 1010px;
+	margin-left: 380px;
+	margin-right: 210px;
+	padding-left: 30px;
+	display: block;
+}
+.header-text-top
+{	
+	display: inline-block;
+	text-transform: uppercase;
+	color: #7e7e7e;
+	font-size: 10px;
+	padding: 17px 0;
+}
+.header-text-top img
+{	
+	position: absolute;
+	top: 0;
+	left: 210px;
+	z-index: 3;
+	width: 170px;
+    height: 113px;
+}
+.header-nav-top
+{	
+	display: inline-block;
+	color: #7e7e7e;
+	text-transform: uppercase;
+	margin-left: 312px;
+}
+.header-nav-top ul
+{
+	list-style-type: none;
+	font-size: 0;
+	display: block;
+	width: 392px;
+
+
+}
+.header-nav-top li
+{
+	display: inline-block;
+	font-size: 10px;
+
+}
+.header-nav-a
+{
+	text-decoration: none;
+	color: #7e7e7e;
+	padding-right: 25px;
+}
+.header-nav-a:hover
+{
+	color: #cfcfcf;
+}
+.header-nav-top li:hover:after
+{
+	content: "";
+	background:url('../img/triangle.png');
+	display: inline-block;
+	width: 5px;
+	height: 3px;
+	margin-bottom: 2px;
+	margin-left: -10px;
+}
+
+.header-down
+{
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #ebebeb;
+
+}
+.header-wrapper-down
+{	
+	width: 1010px;
+	display: block;
+	margin-left: 380px;
+	box-sizing: border-box;
+}
+.header-nav-down
+{
+
+	display: inline-block;
+	color: #393939;
+	vertical-align: top;
+
+}
+.header-nav-down ul
+{
+	list-style-type: none;
+	font-size: 0;
+	display: block;
+
+}
+.header-nav-down li
+{
+	display: inline-block;
+	padding: 27px 29px 27px 33px;
+	border-right: 1px solid #ebebeb;
+}
+.header-nav-down li:hover
+{
+	background: #f39822;
+	border-bottom: 1px solid #161616;
+}
+.header-nav-down a
+{
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: "ProximaNovaBold";
+	color: #181818;
+}
+.nav-header-icons
+{
+	width: 155px;
+	display: inline-block;
+	margin-left: 240px;
+}
+.nav-header-icons ul
+{
+	list-style-type: none;
+	display: block;
+
+}
+.nav-header-icons li
+{
+	display: inline-block;
+	padding: 25px 25px 20px 24px;
+	border-left: 1px solid #ebebeb;
+}
+.nav-header-icons li:hover
+{
+	background: #f39822;
+	border-bottom: 1px solid #161616;
+}
+.nav-header-icons li:last-child
+{
+	border-right: 1px solid #ebebeb;
+	position: relative;
+}
+.nav-header-icons li:last-child:after
+{
+	content: "3";
+	display: inline-block;
+	position: absolute;
+	box-sizing: border-box;
+	border-radius: 100%;
+	background: #ff6600;
+	width: 21px;
+	height: 21px;
+	text-align: center;
+	font-family: "ProximaNovaRegular";
+	font-size: 11px;
+	padding-top: 4px;
+	color: #ffebdd;
+	margin-top: -9px;
+	margin-left: -9px;
+}
+
+.top-container
+{
+	width: 100%;
+	height: 788px;
+	background:url('../img/boots.jpg');
+	display: block;
+	position: relative;
+}
+.top-container-staff
+{
+	width: 760px;
+	margin: 0 auto;
+	display: block;
+}
+.top-container-img
+{	
+
+	display: block;
+	margin: 0 auto;
+	width: 76px;
+	padding-top: 112px;
+	padding-bottom:  139px;
+}
+.top-container-img:after
+{
+	content: "";
+	background: #ff6600;
+	width: 70px;
+	height: 2px;
+	display: block;
+	margin-top: 31px;
+	margin-left: -2px;
+}
+.top-container-text
+{
+	display: block;
+	width: 100%;
+}
+.top-container-text h1
+{
+	color: #fff;
+	font-family: "ProximaNovaBold";
+	font-size: 71px;
+
+}
+.top-container-text span
+{
+	color: #969696;
+	font-family: "ProximaNovaRegular";
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	padding-bottom: 93px;
+
+}
+.top-container:before
+{
+	content: "";
+	background: #fff;
+	width: 52px;
+	height: 1px;
+	display: block;
+	position: absolute;
+	top: 370px;
+	right: 0px;
+
+}
+.top-container:after
+{
+	content: "";
+	background: #fff;
+	width: 52px;
+	height: 1px;
+	display: block;
+	position: absolute;
+	top: 370px;
+	left: 0px;
+
+}
+.btn-img
+{
+	width: 6px;
+	height: 9px;
+	display: inline-block;
+	margin-left: 19px;
+}
+.btn-top
+{	
+	text-decoration: none;
+	border: 2px solid #fff;
+	height: 50px;
+	width: 170px;
+	box-sizing: border-box;
+	margin: 0 auto 110px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal;
+	padding-top: 17px;
+	padding-left: 31px;
+	font-family: "ProximaNovaBold";
+	display: block;
+}
+.btn-top:hover
+{
+	background: #ff6600;
+	border-color: #1d1d1d;
+	transition: 0.5s ease;
+}
+.balls
+{
+	width: 90px;
+	height: 8px;
+	margin: 0 auto;
+	display: block;
+}
+.balls img
+{	
+	display: inline-block;
+	margin-right: 11px;
+	cursor: pointer;
+}
+.balls img:last-child 
+{
+	margin-right: 0;
+}
+.grey-ball
+{
+	padding-bottom: 2px;
+}
+.grey-ball:hover
+{	
+	width: 8px;
+	height: 8px;
+	padding-bottom: 0;
+	background:url('../img/big-white-ball.png');
+}
+.fotos-container-bg
+{
+	width: 100%;
+	position: relative;
+	background: #f4f4f4;
+}
+.fotos-container-main
+{
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.top-fotos
+{
+	display: block;
+	position: absolute;
+	width: 1180px;
+	height: 400px;
+	top: -40px;
+}
+.top-foto1
+{
+	background-image:url('../img/watches.png');
+	display: inline-block;
+	width: 589px;
+	height: 400px;
+
+}
+.border
+{
+	width: 510px;
+	height: 264px;
+	box-sizing: border-box;
+	border: 5px solid #fff;
+	margin: 49px 40px 41px 39px;
+	display: block;
+	position: relative;
+}
+.nixon
+{
+	position: absolute;
+	height: 47px;
+	width: 137px;
+	color: #fff;
+	font-size: 50px;
+	font-family: "ProximaNovaBold";
+	top: -17px;
+	left: -8px;
+	background: #ff6600;
+}
+.perimeter
+{	
+	width: 211px;
+	height: 47px;
+	position: absolute;
+	color: #fff;
+	font-size: 50px;
+	font-family: "ProximaNovaBold";
+	background: #ff6600;
+	top: 29px;
+	left: -8px;
+}
+.collection
+{	
+	width: 240px;
+	height: 63px;
+	position: absolute;
+	color: #fff;
+	font-size: 50px;
+	font-family: "ProximaNovaBold";
+	background: #ff6600;
+	top: 76px;
+	left: -8px;
+}
+.top-foto1-nav
+{
+	position: absolute;
+	width: 247px;
+	top: 305px;
+	left: -6px;
+}
+.top-foto1-nav ul
+{	
+
+	list-style-type: none;
+	font-size: 0;
+	display: block;
+}
+.top-foto1-nav li
+{
+	display: inline-block;
+	margin-right: 21px;
+}
+.top-foto1-nav a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: medium;
+	text-transform: uppercase;
+	font-family: "ProximaNovaBold";
+	color: #fff;
+}
+.top-foto1-nav img
+{
+	display: inline-block;
+	width: 6px;
+	height: 9px;
+	margin-left: 8px;
+}
+.top-foto1-nav li:last-child
+{
+	margin-right: 0px;
+}
+.top-foto2
+{
+	background-image:url('../img/white-red-boots.png');
+	display: inline-block;
+	width: 589px;
+	height: 400px;
+	margin-left: -4px;
+}
+.sweetest
+{	
+	width: 230px;
+	height: 47px;
+	position: absolute;
+	font-size: 50px;
+	font-family: "ProximaNovaBold";
+	color: #fff;
+	background: #d5d5d5;
+	top: -17px;
+	left: -6px;
+}
+.pack-of
+{	
+	height: 47px;
+	position: absolute;
+	font-size: 50px;
+	font-family: "ProximaNovaBold";
+	color: #fff;
+	background: #d5d5d5;
+	top: 29px;
+	left: -6px;
+}
+.air-maxes
+{	
+	height: 63px;
+	position: absolute;
+	font-size: 50px;
+	font-family: "ProximaNovaBold";
+	color: #fff;
+	background: #d5d5d5;
+	top: 76px;
+	left: -6px;
+}
+
+.top-foto2-nav
+{
+	width: 110px;
+	position: absolute;
+	top: 301px;
+	left: -6px;
+}
+.top-foto2-nav a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: medium;
+	text-transform: uppercase;
+	font-family: "ProximaNovaBold";
+	color: #fff;
+}
+.top-foto2-nav img
+{
+	display: inline-block;
+	width: 6px;
+	height: 9px;
+	margin-left: 11px;
+}
+.middle-text
+{
+	width: 100%;
+	display: block;
+	padding-top: 363px;
+	background: #f4f4f4;
+}
+.middle-text h2
+{
+	font-size: 48px;
+	font-family: "ProximaNovaBold";
+	text-align: center;
+	padding-top: 107px;
+}
+.middle-text p
+{	
+	text-align: center;
+	padding-top: 11px;
+	color: #b4b4b4;
+	font-size: 20px;
+	font-family: "ProximaNovaRegular";
+	padding-bottom: 94px;
+}
+.fotos-bg
+{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+
+}
+.fotos-container1
+{
+	display: block;
+	width: 100%;
+	height: 590px;	
+}
+.girl-noface
+{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.girl-boots-text
+{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	margin-left: -4px;
+	vertical-align: top;
+}
+.text-fotos
+{
+	width: 295px;
+	height: 295px;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	font-family: "ProximaNovaBold";
+	vertical-align: top;
+
+}
+.text-fotos p:first-child
+{
+	padding-top: 124px;
+
+}
+.text-fotos img
+{
+	margin-top: 27px;
+}
+.girl-with-cap
+{
+	display: inline-block;
+	width: 295px;
+	height: 295px;
+	margin-left: -4px;
+	position: relative;
+
+}
+.girl-with-cap:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;	
+}
+.nike-boots
+{
+	display: inline-block;
+	width: 295px;
+	height: 295px;
+	margin-top: -4px;
+}
+.text-fotos1
+{
+	margin-left: -4px;
+	margin-top: -4px;
+}
+.fotos-container2
+{
+	display: block;
+	width: 100%;
+	height: 590px;	
+}
+.blackW-boots-text
+{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.black-woman
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-left: -4px;
+	margin-top: -4px;
+	position: relative;
+}
+.black-woman:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;	
+}
+.puma-boots
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-top: -4px;
+	position: relative;
+}
+.puma-boots:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;
+	right: 0;
+	transform: rotate(180deg);
+}
+.boys
+{
+	display: inline-block;
+	margin-left: -4px;
+	width: 50%;
+	height: 100%;
+
+}
+.foto-container3
+{
+	display: block;
+	width: 100%;
+	height: 590px;	
+}
+.kanye
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+}
+
+.girl-cola-boots
+{
+	display: inline-block;
+	width: 50%;
+	height: 590px;
+	margin-left: -4px;
+	vertical-align: top;
+}
+.girl-with-cola
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-left: -4px;
+	position: relative;
+}
+.girl-with-cola img
+{
+	display: block;
+	width: 292px;
+	height: 295px;
+}
+.girl-with-cola:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;	
+}
+.adidas-boots
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-top: -4px;
+	position: relative;
+}
+.adidas-boots img
+{
+	display: block;
+	width: 295px;
+	height: 295px;
+}
+.adidas-boots:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;
+	right: 0;
+	transform: rotate(180deg);
+}
+.fotos-container4
+{
+	display: block;
+	width: 100%;
+	height: 590px;
+	margin-top: -4px;
+}
+.teeth-clean-man
+{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.man-cleaner
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-left: -4px;
+	position: relative;
+}
+.man-cleaner:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;
+}
+.gold-teeth
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-top: -4px;
+	position: relative;
+}
+.gold-teeth:before
+{
+	content: "";
+	background:url('../img/images-controller.png');
+	width: 12px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 135px;
+	right: 0;
+	transform: rotate(180deg);
+}
+.graffity-container
+{
+	display: inline-block;
+	margin-left: -4px;
+	width: 50%;
+	height: 100%;
+}
+.btn-read-more
+{
+	display: block;
+	margin: 0 auto;
+	width: 170px;
+	height: 50px;
+	text-decoration: none;
+	border: 2px solid #c4c4c4;
+	color: #363636;
+	font-size: 12px;
+	font-weight: medium;
+	font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+.btn-read-more:hover
+{
+	background: #969696;
+	color: #fff;
+	transition: 0.5s ease;
+}
+.btn-padding
+{	display: block;
+	padding: 77px 0 72px;
+}
+.footer
+{
+	width: 100%;
+}
+.top-footer
+{
+	width: 100%;
+	background: #e1e1e1;
+	padding: 85px 0;
+	position: relative;
+	z-index: 5;
+}
+.top-footer:after
+{
+	content: "";
+	width: 60px;
+	height: 60px;
+	display: block;
+	background:url('../img/orange_triangle_footer.png');
+	position: absolute;
+	top: 217px;
+	left: 772px;
+}
+.logos-container
+{
+	display: block;
+	width: 1110px;
+	margin: 0 auto;
+}
+.for-logo
+{
+	display: inline-block;
+	margin-left: -4px;
+	height: 73px;
+	position: relative;
+}
+.for-logo:after
+{
+	content: "";
+	background:url('../img/cross.png');
+	width: 10px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 37px;
+}
+.adidas
+{	
+	display: inline-block;
+	width: 89px;
+	height: 73px;
+	padding-right: 64px;
+}
+
+.new-balance
+{
+	width: 112px;
+	padding-left: 46px;
+	padding-right: 41px;
+
+}
+.nike
+{
+	width: 115px;
+	padding-left: 54px;
+	padding-right: 31px;
+}
+.puma
+{
+	width: 121px;
+	padding-left: 47px;
+	padding-right: 30px;
+}
+.ne
+{
+	width: 90px;
+	padding-left: 64px;
+	padding-right: 44px;
+}
+.asics
+{
+	width: 116px;
+	padding-left: 46px;
+}
+.down-footer
+{
+	width: 100%;
+	background: #161616;
+	position: relative;
+	z-index: 4;
+}
+.down-footer:before
+{	
+	content: "";
+	display: block;
+	position: absolute;
+	background:url('../img/graffity-down-footer.png');
+	width: 149px;
+	height: 85px;
+	top: 94px;
+	left: 730px;
+
+}
+
+.nav-down-footer
+{
+	display: block;
+	width: 1180px;
+	margin: 0 auto;
+	padding-top: 110px;
+	padding-bottom: 87px;
+}
+.li-checked
+{
+	border-bottom: 1px solid #ff6600;
+}
+.a-checked
+{
+	color: #fff!important;
+}
+.nav-down-footer li:hover
+{
+	border-bottom: 1px solid #ff6600;
+	
+}
+.nav-down-footer a:hover
+{
+	color: #fff;
+}
+.nav-footer1
+{
+	width: 450px;
+	height: 40px;
+	display: inline-block;
+	margin-left: 0;
+}
+.nav-footer1 ul
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0px;
+
+}
+.nav-footer1 li
+{
+	display: inline-block;
+	list-style-type: none;
+	box-sizing: border-box;
+	padding: 14px 6px;
+	margin-right: 11px;
+}
+.nav-footer1 li:last-child
+{
+	margin-right: 0px;
+}
+.nav-footer1 a
+{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "ProximaNovaBold";
+	color: #868686;
+}
+
+.nav-footer2
+{	
+	display: inline-block;
+	height: 40px;
+	width: 435px;
+	float: right;
+}
+.nav-footer2 ul
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+}
+.nav-footer2 li
+{
+	display: inline-block;
+	list-style-type: none;
+	box-sizing: border-box;
+	padding: 14px 8px;
+	margin-right: 14px;
+}
+.nav-footer2 li:last-child
+{
+	margin-right: 0px;
+}
+.nav-footer2 a
+{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "ProximaNovaBold";
+	color: #868686;
+}
+.social-logo
+{	
+	display: block;
+	width: 187px;
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+}
+.social-logo:after
+{
+	content: "";
+	width: 470px;
+	height: 1px;
+	background: #2e2e2e;
+	position: absolute;
+	top: 14px;
+	right: 215px;
+	z-index: 3
+}
+.social-logo:before
+{
+	content: "";
+	width: 470px;
+	height: 1px;
+	background: #2e2e2e;
+	position: absolute;
+	top: 14px;
+	left: 215px;
+	z-index: 2
+}
+.social-logo div:first-child
+{
+	margin-right: 13px;
+}
+.social-logo div:last-child
+{
+	margin-right: 0;
+}
+
+.logos-social
+{
+	display: inline-block;
+	margin-left: -4px;
+	width: 37px;
+	height: 35px;
+	margin-right: 13px;
+}
+
+.facebook
+{
+	display: inline-block;
+	width: 37px;
+	height: 35px;
+}
+.footer-text-rights
+{
+	display: block;
+	width: 230px;
+	height: 18px;
+	font-family: "ProximaNovaRegular";
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #3b3b3b;
+	margin: 45px auto 0;
+	padding-bottom: 145px;
+}
+
+
+@font-face
+{
+	font-family: "ProximaNovaBold";
+	src:url('../fonts/ProximaNovaBold.otf');
+}
+@font-face
+{
+	font-family: "ProximaNovaRegular";
+	src:url('../fonts/ProximaNovaRegular.otf');
+}
