@@ -1,0 +1,487 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: "tahomaregular";
+}
+p
+{
+	color: #333333;
+	font-size: 12px;
+}
+.wrapper
+{
+	width: 1280px;
+	margin: auto;
+}
+.header
+{
+	width: 980px;
+	margin: auto;
+	margin-top: 35px;
+}
+.toptext
+{	
+
+	display: inline-block;
+}
+.toptext span
+{
+	font-family: "bauhaus-light";
+	font-size: 45px;
+	font-weight: normal;
+	color: #33bae3;
+}
+
+
+.mobnumber
+{	
+
+	display: block;
+	width: 148px;
+	height: 28px;
+	font-style: none;
+	float: right;
+}
+.mobnumber img
+{
+	display: inline-block;
+	margin-left: 16px;
+}
+.forthemob span
+{
+	font-style: normal;
+	display: block;
+	float: right;
+	padding: 8px 0 0 0;
+}
+.nav
+{	
+	margin-top: 35px;
+	background: #e4e2e2;
+	font-size: 15px;
+}
+.parts
+{
+	width: 980px;
+	margin: auto;
+	padding: 16px 0;
+}
+.nav a
+{
+	text-decoration: none;
+	color: #676565;
+	margin-left: 138px;
+
+}
+.nav a:first-child
+{
+	margin-left: 0;
+}
+.nav a:last-child
+{
+	float: right;
+}
+/*.contside
+{
+	width: 980;
+
+}*/
+.content
+{
+	width: 695px;
+	margin-left: 150px;
+	display: inline-block;
+
+}
+
+.parts2
+{
+	padding-top: 17px;
+
+}
+.parts2 a
+{
+	margin-left: 17px;
+	color: #7c7c7c;
+}
+.nav1
+{
+	font-size: 11px;
+}
+.nav1 a:first-child
+{
+	margin-left: 0;
+}
+.nav1 a:last-child
+{
+	text-decoration: none;
+}
+.content h1
+{
+	color: #212121;
+	font-weight: normal;
+	padding-top: 41px;
+	padding-bottom: 35px;
+	font-size: 28px;
+}
+.clock
+{
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.clock img
+{
+	display: block;
+}
+.content h3
+{
+	padding-top: 45px;
+	padding-bottom: 22px;
+	color: #212121;
+	font-weight: normal;
+	font-size: 18px;
+}
+.nav2
+{
+	list-style-type: none;
+	margin-top: 22px;
+	display: inline-block;
+	margin-bottom: 29px;
+	font-size: 12px;
+	
+}
+.nav2 a
+{
+	color: #24b6e2;
+	padding-bottom:  17px;
+	display: block;
+	margin-left: 33px;
+	margin-top: 27px;
+}
+.nav2 a:before
+{	
+	content: " ";
+	width: 16px;
+	height: 1px;
+	background: #7f7f7f;
+	display: block;
+	margin: -17px 0 -9px -33px;
+}
+hr
+{
+	border: 1px dotted #c9c9c9;
+}
+.content h4
+{
+	text-transform: uppercase;
+	color: #828282;
+	padding-top: 30px;
+	font-size: 12px;
+}
+.watches
+{
+	
+	width: 695px;
+	margin-top: 17px;
+	margin-bottom: 25px;
+}
+.watches figure
+{
+	
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.watches figure:last-child
+{
+	margin-right: 0;
+}
+.nav3
+{
+	display: inline-block;
+	margin: 26px 0;
+	color: #333333;
+	font-size: 12px;
+}
+.nav3 a
+{
+	display: block;
+}
+.nav3 ol
+{
+	list-style-type: none;
+	counter-reset:  item;
+}
+.nav3 li:before
+{
+	content: counter(item) ') ';
+    counter-increment: item; 
+}
+.secondHr
+{
+	padding-bottom: 29px;
+}
+.tab
+{
+	margin-top: 30px; 
+	margin-bottom: 33px;
+	font-size: 12px;
+	display: block;
+}
+table
+{	
+
+	margin-bottom: 44px;
+	width: 100%;
+	font-size: 11px;
+	
+}
+.maintr
+{
+	color: #7d7d7d;
+}
+
+td
+{
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 14px;
+	padding-right: 23px;
+
+}
+table a
+{
+	color: #24b6e2;
+}
+
+.grey
+{
+	background-color: #d3cccc;
+}
+.test
+{
+	float: right;
+}
+.btn1
+{
+	display: inline-block;
+	margin: auto;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: normal;
+	width: 109px;
+	height: 33px;
+	background:#50c3af;
+	text-align: center;
+	padding-top:12px;
+	box-sizing: border-box;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.btn2
+{
+	display: inline-block;
+	margin-left: 6px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	font-weight: normal;
+	width: 109px;
+	height: 33px;
+	background: #d8d6d6;
+	text-align: center;
+	padding-top:12px;
+	box-sizing: border-box;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.blueHr 
+{
+	border: 1px solid #50c3af;
+	margin-top: 2px;
+	margin-bottom: 14px;
+}
+.theend
+{
+	margin-top: 83px;
+	margin-bottom: 22px;
+	border: 1px dotted #c9c9c9;
+	width: 980px;
+	margin-left: 150px;
+}
+.sidebar
+{
+	width: 285px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.sidespace
+{	
+
+	margin-top: 67px;
+	width: 235px;
+	margin-left: 48px;
+	
+
+}
+.form
+{	
+
+	width: 230px;
+	border: 1px solid #e2e3e4;
+	border-radius: 3px;
+
+}
+.form input
+{
+	border: none;
+	padding: 8px 10px 8px 0;
+	width: 200px;
+
+}
+.form input:focus
+{
+	border: none;
+	outline-offset: 0;
+	outline: none;
+
+}
+.search
+{
+	width: 14px;
+	height: 13px;
+	display: inline-block;
+}
+.sidebar h2
+{
+	padding-top: 29px;
+	padding-bottom: 5px;
+	font-size: 22px;
+	font-weight: normal;
+}
+.sidelink
+{	
+	margin-top: 20px;
+	display: block;
+	font-size: 14px;
+	color: #24b6e2;
+	margin-bottom: 11px;
+}
+
+time
+{
+	font-size: 11px;
+	color: #7d7d7d;
+}
+.sidebar p
+{
+	padding-top: 17px;
+	padding-bottom: 22px;
+}
+.sidebar hr
+{
+	border: 1px dotted #c9c9c9
+}
+.btn3
+{
+	width: 100px;
+	height: 26px;
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	font-weight: normal;
+	background: #d8d6d6;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 22px;
+	padding-top: 9px;
+}
+.signup
+{	
+	display: block;
+	margin-top: 92px;
+	font-size: 24px;
+	color: #212121;
+	margin-bottom: 25px;
+}
+.forms input
+{
+	width: 217px;
+}
+.name
+{
+	height: 27px;
+	width: 217px;
+	
+	margin-bottom: 15px;
+	padding-left: 13px;
+}
+.btn4
+{
+	width: 113px;
+	height: 26px;
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	background: #24b6e2;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 27px;
+	padding-top: 8px;
+}
+footer
+{
+	width: 980px;
+	margin-left: 150px;
+	font-size: 11px;
+
+}
+.timeA
+{
+	color: #24b6e2;
+}
+
+
+.foottxt
+{
+	display: inline-block;
+	margin-bottom: 31px;
+}
+.footfoto
+{
+	display: inline-block;
+	float: right;
+}
+.social
+{
+	display: inline-block;
+
+}
+footer p
+{
+	padding-top: 10px;
+}
+
+@font-face
+{
+	font-family: "bauhaus-light";
+	src:url('../font/bauhaus-light.ttf');
+}
+@font-face
+{
+	font-family: "tahomaregular";
+	src:url('../font/tahomaregular.ttf');
+}
